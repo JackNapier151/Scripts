@@ -10,7 +10,7 @@ echo " 2.-Actualizar con Git los PKGBUILDs de Arch y ArchBased (ArchWay-UpgradeP
 #echo " 3.-Crear Carpetas y Descargar con Rsync Repositorios de Arch y ArchBased (ArchWay-CreatedRepository.sh)"
 #echo " 4.-Actualizar con Rsync Repositorios de Arch y ArchBased (ArchWay-UpgradeRepository.sh)"
 echo ""
-echo " 99.-Informacion Distros PKGBUILDs y Repositorios"
+echo " 99.-Informacion Distros PKGBUILDs y Repositorios (ArchWay-Info.sh)"
 echo " 0.-Salir"
 echo ""
 read -p "OPCIÓN: " OPCION
