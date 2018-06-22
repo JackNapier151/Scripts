@@ -53,9 +53,5 @@ echo " COMPLETADO:"
 echo " Ejemplos:"
 echo " control"
 echo " lusrmgr.msc"
-echo " "
-echo " "
-echo " "
-echo " "
 
 exit 0
