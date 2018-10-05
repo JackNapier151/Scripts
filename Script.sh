@@ -14,6 +14,7 @@ echo " 7.-Hackear Windows (HackConWin.sh)[Alpha]"
 echo " 8.-Informacion de la IP (NetworkIP.sh)"
 echo " 9.-Editar Espacio Temporal /tmp (EditTmp.sh)"
 echo " 10.-Ver Todos Los Colores en la Terminal (ColorBash.sh)"
+echo " 11.-Instalar paquetes de Atom (AtomPackageInstall.sh)"
 echo ""
 #echo " X.-Instalar Latino (InstallLatino.sh)[NoDisponible]"
 #echo " X.-Instalar Manualmente desde AUR (AURInstall.sh)[NoDisponible]"
@@ -33,7 +34,8 @@ case $OPCION in
 	8) sh $dire/NetworkIP.sh;;
 	9) sh $dire/EditTmp.sh;;
 	10) sh $dire/ColorBash.sh;;
-	10) sh $dire/ArchWay.sh;;
+	11) sh $dire/AtomPackageInstall.sh;;
+	99) sh $dire/ArchWay.sh;;
 	*) echo "Error: Opcion no valida. Saliendo"; exit 1 ;;
 	:) echo "Error: Está faltando un argumento en alguna parte. Saliendo"; exit 1 ;;
 	?) echo "Error: Indicador no válido en alguna parte. Saliendo"; exit 1 ;;
