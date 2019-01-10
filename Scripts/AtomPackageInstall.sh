@@ -11,7 +11,7 @@ echo " 4.-Desistalar los Paquetes"
 echo " 5.-Actualizar los Paquetes"
 echo " 0.-Salir"
 echo ""
-atom="atom-beautify atom-clock autocomplete-java autocomplete-modules autocomplete-php autocomplete-plus autocomplete-python autocomplete-xml autoprefixer busy-signal color-picker css-comb emmet file-icons fonts git-plus git-time-machine goto-definition highlight-selected intentions language-jade language-latex language-latexsimple language-latino language-postcss linter linter-gcc linter-htmlhint linter-jshint linter-less linter-php linter-spell linter-spell-html linter-ui-default merge-conflicts minimap minimap-bookmarks minimap-cursorline minimap-find-and-replace minimap-git-diff minimap-highlight-selected minimap-pigments minimap-selection open-recent pigments remember-file-positions teletype todo-show w3c-validation"
+atom="advanced-open-file atom-autocomplete-php atom-beautify atom-clock autoclose-html autocomplete-java autocomplete-modules autocomplete-php autocomplete-plus autocomplete-python autocomplete-xml autoprefixer busy-signal color-picker css-comb docblockr emmet file-icons fonts git-plus git-time-machine goto-definition highlight-selected intentions language-jade language-latex language-latexsimple language-latino language-postcss linter linter-gcc linter-htmlhint linter-jshint linter-less linter-php linter-spell linter-spell-html linter-ui-default merge-conflicts minimap minimap-bookmarks minimap-cursorline minimap-find-and-replace minimap-git-diff minimap-highlight-selected minimap-pigments minimap-selection open-recent php-cs-fixer php-debug php-hyperclick pigments platformio-ide-terminal remember-file-positions script sync-settings teletype todo-show w3c-validation"
 read -p "OPCIÓN: " OPCION
 case $OPCION in
 	0) exit;;
@@ -27,4 +27,3 @@ case $OPCION in
 	?) echo "Error: Indicador no válido en alguna parte. Saliendo"; exit 1 ;;
 esac
 exit 0
-
