@@ -6,3 +6,4 @@ for i in `find ./*/*.{mkv,avi,mp4} -maxdepth 2 -type f -size +15k`;do
 	echo $i;
 	mv $i ./ ;
 done;
+exit 0

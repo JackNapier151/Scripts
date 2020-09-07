@@ -7,3 +7,4 @@ do
 	youtube-dl --skip-unavailable-fragments --hls-use-mpegts -i $1
 	var=$?
 done
+exit 0
