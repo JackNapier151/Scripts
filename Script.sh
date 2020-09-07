@@ -10,15 +10,17 @@ echo " 3.-Cerrar sesion (CerrarSesion.sh)[Alpha]"
 echo " 4.-Daemon OpenSSH (OpenSSHDaemon.sh)"
 echo " 5.-Daemon MiniDLNA (MiniDLNADaemon.sh)"
 echo " 6.-Daemon TeamViewer (DaemonTeamViewer.sh)"
-echo " 7.-Hackear Windows (HackConWin.sh)[Alpha]"
+echo " 7.-\"Hackear\" Windows (HackConWin.sh)[Alpha]"
 echo " 8.-Informacion de la IP (NetworkIP.sh)"
 echo " 9.-Editar Espacio Temporal /tmp (EditTmp.sh)"
 echo " 10.-Ver Todos Los Colores en la Terminal (ColorBash.sh)"
 echo " 11.-Instalar paquetes de Atom (AtomPackageInstall.sh)"
 echo ""
-#echo " X.-Instalar Latino (InstallLatino.sh)[NoDisponible]"
-#echo " X.-Instalar Manualmente desde AUR (AURInstall.sh)[NoDisponible]"
-echo " 99.-Cosas Relacionadas Con ArchLinux y ArchBased (ArchWay.sh)"
+echo " 50.-Scripts sobre archivos y videos (VideoFile.sh)"
+echo ""
+#echo " X.-Instalar Latino (InstallLatino.sh)[NoDisponible]" TODO
+#echo " X.-Instalar Manualmente desde AUR (AURInstall.sh)[NoDisponible]" TODO
+echo " 100.-Cosas Relacionadas Con ArchLinux y ArchBased (ArchWay.sh)"
 echo " 0.-Salir"
 echo ""
 read -p "OPCIÓN: " OPCION
@@ -35,7 +37,8 @@ case $OPCION in
 	9) sh $dire/EditTmp.sh;;
 	10) sh $dire/ColorBash.sh;;
 	11) sh $dire/AtomPackageInstall.sh;;
-	99) sh $dire/ArchWay.sh;;
+	50) sh $dire/VideoFile.sh;;
+	100) sh $dire/ArchWay.sh;;
 	*) echo "Error: Opcion no valida. Saliendo"; exit 1 ;;
 	:) echo "Error: Está faltando un argumento en alguna parte. Saliendo"; exit 1 ;;
 	?) echo "Error: Indicador no válido en alguna parte. Saliendo"; exit 1 ;;
